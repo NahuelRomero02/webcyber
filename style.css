@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F7F7F7;
+    color: #F7F7F7;
+    padding: 1em;
+}
+
+.navbar {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px; /* Ajusta la altura según tus necesidades */
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Añade estos estilos a tu archivo style.css */
+
+
+/* Añade estos estilos a tu archivo style.css */
+#equipo {
+    background-image: url('equipo.jpg'); /* Cambia 'ruta_de_la_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta según sea necesario */
+    background-position: center; /* Ajusta según sea necesario */
+    background-repeat: no-repeat;
+    padding: 20px; /* Ajusta el espacio interno según sea necesario */
+    color: #F7F7F7; /* Ajusta el color del texto para que sea legible en la imagen */
+}
+
+.equipo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.equipo-table td {
+    text-align: center;
+    padding: 20px;
+}
+
+.equipo-table img {
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+/* Estilo para la sección de contacto */
+.contacto-section {
+    /* background-color: rgb(95, 255, 117); Cambia el color de fondo según tu preferencia */
+    background-image: url('fondo.png');
+    background-size: cover; /* Ajusta el tamaño según tus necesidades */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 50px; /* Añade un espacio de relleno para mejorar la apariencia */
+}
+
+/* Estilo para el botón de contacto */
+#contactarBtn {
+    background-color: #14c053; /* Color de fondo de WhatsApp verde */
+    color: #F7F7F7; /* Color del texto en blanco */
+    padding: 10px 20px; /* Ajusta el espacio de relleno según tus preferencias */
+    font-size: 16px; /* Ajusta el tamaño del texto según tus preferencias */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.btn-contacto {
+    display: inline-block;
+}
+
+/* .contacto-div{
+ background-color: rgb(0, 234, 255);
+} */
+
+.color-font{
+    color: #ffffff; /* Cambia el color al que desees, aquí se usa rojo (#ff0000) como ejemplo */
+    background-color: rgb(8,33,55);
+    padding: 10px; /* Añade un poco de relleno para resaltar el texto */
+    border: 2px solid #09004e; /* Añade un borde alrededor del texto para mayor contraste */
+    display: inline-block; 
+    /* border-radius: 10px; */
+}
+
+h3 {
+    color: white;
+}
+p{
+    color: white;
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+img-style {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+
